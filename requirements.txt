@@ -1,0 +1,40 @@
+#python-dotenv
+#azure-ai-ml
+#azure-identity
+#azure-storage-blob
+#azure-cosmos
+
+# Core Web Framework
+fastapi==0.104.1
+uvicorn==0.24.0
+python-multipart==0.0.6
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Video Processing
+opencv-python==4.8.1.78
+numpy==1.24.3
+pillow==10.0.0
+
+# Machine Learning - YOLO
+torch==2.12.0
+torchvision==0.27.0
+ultralytics==8.4.56
+
+# Azure SDKs (Python 3.13 compatible)
+azure-storage-blob==12.29.0
+azure-cosmos==4.15.0
+azure-ai-ml==1.13.0
+azure-containerregistry==1.2.1
+azure-identity==1.14.0
+
+# Data Processing
+pandas==2.0.3
+requests==2.31.0
+
+# Environment & Configuration
+python-dotenv==1.0.0
+
+# Note: azure-signalr not available for Python 3.13 yet
+# Using REST API calls instead (see src/signalr_client.py)
+
